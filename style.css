@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: center;
+    gap: 170px;
+    font-size: 100px;
+    align-items: center;
+}
+.container-two button{
+  
+    border-radius: 0 10px 10px 0;
+    background-color: brown;
+    border-color: transparent;
+    height: 35px;
+
+}
+.container-two input{
+    border-color: transparent;
+ 
+    border-radius: 10px 0 0 10px;
+    height: 30px;
+}
+input:focus{
+   outline: none;
+}
+.container-two{
+    display: flex;
+ height: 300px;
+
+    justify-content: center;
+   
+    align-items: center;
+    background-color: goldenrod;
+}
